@@ -24,7 +24,11 @@ def remove_element_from_start_of_array(array)
 end
 ##############################
 def retrieve_element_from_index(array, index_number)
+<<<<<<< HEAD
 array[index_number]
+=======
+array.pop(index_number)
+>>>>>>> ab23cb9046b422892f825d8a1de9ede270bc60b4
 end
 ##############################
 def retrieve_first_element_from_array(array)
